@@ -13,6 +13,7 @@ import tech.ada.b3testesexercicios.service.CriarUsuarioService;
 
 @RestController
 @RequestMapping("/v1/usuarios")
+
 public class UsuarioController {
 
     private final CriarUsuarioService criarUsuarioService;
